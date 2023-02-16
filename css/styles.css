@@ -1,0 +1,188 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 7% 15% ;
+}
+
+/* sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+  color: black;
+}
+
+/* navigation bar */
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download buttons */
+
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title .container-fluid{
+  text-align: left;m
+  padding: 3% 15% 7%;
+}
+
+/* title image */
+
+.phone {
+  width: 60%;
+}
+
+@media (max-width:990px) {
+  #title{
+    text-align: center;
+  }
+}
+
+@media (min-width:990px) {
+
+  .phone {
+    position: absolute;
+    right: 30%;
+    transform: rotate(25deg);
+  }
+
+  .phone-div {
+    position: relative;
+  }
+
+  #features {
+    position: relative;
+  }
+}
+/* feature */
+
+#features {
+  position: relative;
+}
+
+.fa-fea{
+  width: 4rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fa-fea:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem
+}
+
+
+/* testimonial */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.pressimg {
+  width: 15%;
+  margin: 3% 3% 5%;
+}
+
+/* pricing */
+#pricing {
+  color: black;
+  padding: 5rem;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+.card-column {
+  padding: 4% 2%;
+}
+
+/* cta section */
+
+.ctafoot{
+  margin-top: 1rem;
+}
+
+/* footer */
+
+.fa-foot{
+  width: 1.5rem;
+  color: black;
+  margin: 0.5rem;
+}

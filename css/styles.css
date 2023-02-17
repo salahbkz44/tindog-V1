@@ -87,6 +87,25 @@ p {
   width: 60%;
 }
 
+@media (max-width:426px) {
+  .colored-section .container-fluid{
+    padding: 7% 8%;
+  }
+
+  #title .container-fluid{
+    padding: 2% 10% 7%;
+  }
+
+  .big-heading{
+    font-size: 2.5rem;
+  }
+
+  #title .big-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+}
+
 @media (min-width:990px) {
 
   .phone {

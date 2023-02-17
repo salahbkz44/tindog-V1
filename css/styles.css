@@ -78,7 +78,7 @@ p {
 /* title section */
 
 #title .container-fluid{
-  padding: 3% 15% 7%;
+  padding: 2% 15% 7%;
 }
 
 /* title image */
@@ -87,45 +87,6 @@ p {
   width: 60%;
 }
 
-@media (max-width:426px) {
-  .colored-section .container-fluid{
-    padding: 7% 8%;
-  }
-
-  #title .container-fluid{
-    padding: 2% 10% 7%;
-  }
-
-  .big-heading{
-    font-size: 2.5rem;
-  }
-
-  #title .big-heading{
-    font-size: 3rem;
-    line-height: 1.5;
-  }
-}
-
-@media (min-width:990px) {
-
-  .phone {
-    position: absolute;
-    right: 30%;
-    transform: rotate(25deg);
-  }
-
-  .phone-div {
-    position: relative;
-  }
-
-  #features {
-    position: relative;
-  }
-  
-  #title{
-    text-align: left;
-  }
-}
 /* feature */
 
 #features {
@@ -177,7 +138,6 @@ p {
 /* pricing */
 #pricing {
   color: black;
-  padding: 5rem;
 }
 
 .price-text{
@@ -201,4 +161,59 @@ p {
   width: 1.5rem;
   color: black;
   margin: 0.5rem;
+}
+
+
+@media (min-width:426px) {
+  #pricing{
+    padding: 5rem;
+  }
+}
+
+@media (max-width:426px) {
+  .colored-section .container-fluid{
+    padding: 7% 8%;
+  }
+
+  #pricing {
+  padding: 5rem 2rem;
+  }
+
+  #title .container-fluid{
+    padding: 2% 10% 7%;
+  }
+
+  .big-heading{
+    font-size: 2.5rem;
+  }
+
+  .testimonial-text{
+    font-size: 2.5rem;
+  }
+
+  #title .big-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width:990px) {
+
+  .phone {
+    position: absolute;
+    right: 30%;
+    transform: rotate(25deg);
+  }
+
+  .phone-div {
+    position: relative;
+  }
+
+  #features {
+    position: relative;
+  }
+
+  #title {
+    text-align: left;
+  }
 }
